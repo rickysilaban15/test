@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#keranjang">Keranjang</a></li>
+          <li><a href="#pembayaran">Pembayaran</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Selamat Datang di Toko Silaban !</h1>
+        <p>Temukan produk-produk terbaru,berkualitas dan terlaris di sini!</p>
+      </section>
+      <section id="produk">
+        <h2>Produk</h2>
+        <div class="produk-list">
+          <div class="produk-item">
+            <img
+              src="—Pngtree—furniture single hammock with fabric_5904192.png"
+              alt="Gambar 1"
+            />
+            <h3>Produk 1</h3>
+            <p>Rp 100.000</p>
+            <button class="tambah-keranjang">Tambah ke Keranjang</button>
+          </div>
+          <div class="produk-item">
+            <img
+              src="—Pngtree—household goods furniture single sofa_4626971.png"
+              alt="Gambar 2"
+            />
+            <h3>Produk 2</h3>
+            <p>Rp 200.000</p>
+            <button class="tambah-keranjang">Tambah ke Keranjang</button>
+          </div>
+          <div class="produk-item">
+            <img
+              src="—Pngtree—furniture single hammock with fabric_5904192.png"
+              alt="Gambar 3"
+            />
+            <h3>Produk 3</h3>
+            <p>Rp 300.000</p>
+            <button class="tambah-keranjang">Tambah ke Keranjang</button>
+          </div>
+        </div>
+      </section>
+      <section id="keranjang">
+        <h2>Keranjang</h2>
+        <div class="keranjang-list">
+          <!-- Isi keranjang akan muncul di sini -->
+        </div>
+      </section>
+      <section id="pembayaran">
+        <h2>Pembayaran</h2>
+        <form>
+          <label>Nama:</label>
+          <input type="text" name="nama" /><br /><br />
+          <label>Alamat:</label>
+          <input type="text" name="alamat" /><br /><br />
+          <label>Total Pembayaran:</label>
+          <p id="total-pembayaran">Rp 0</p>
+          <br /><br />
+          <button id="bayar">Bayar Sekarang</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Toko Online. Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
